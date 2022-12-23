@@ -1,10 +1,10 @@
 {
-  "name": "suno-devtool-monorepo",
+  "name": "@suno-devtool/electron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "pnpm -C ./packages/core dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
