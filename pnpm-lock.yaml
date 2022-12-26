@@ -3,7 +3,10 @@ lockfileVersion: 5.4
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      electron: ^22.0.0
+    dependencies:
+      electron: 22.0.0
 
   packages/core:
     specifiers:
