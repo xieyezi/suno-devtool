@@ -22,4 +22,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*/dist-electron
+packages/core/dist-electron
