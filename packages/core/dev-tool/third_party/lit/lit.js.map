@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../front_end/third_party/lit/lit.ts"],
+  "sourcesContent": ["// Copyright 2022 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\nexport * from './lib/lit.js';\nimport * as Directives from './lib/directives.js';\nimport * as Directive from './lib/directive.js';\nimport * as Decorators from './lib/decorators.js';\n\nexport {Directives, Directive, Decorators};\n"],
+  "mappings": "AAIA;AACA;AACA;AACA;AAEA;",
+  "names": []
+}

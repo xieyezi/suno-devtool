@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../../front_end/models/trace/sdk_services/sdk_services.ts"],
+  "sourcesContent": ["// Copyright 2022 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\nimport * as DOMNodeLookup from './DOMNodeLookup.js';\nimport * as LayoutShifts from './LayoutShifts.js';\n\nexport {\n  DOMNodeLookup,\n  LayoutShifts,\n};\n"],
+  "mappings": "AAIA;AACA;AAEA;AAAA;AAAA;AAAA;",
+  "names": []
+}

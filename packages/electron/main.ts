@@ -19,10 +19,10 @@ function createWindow() {
   //  win.loadFile(path.join(__dirname, "../../core/dist/index.html"));
   //}
   win.loadFile(
-    path.join(__dirname, "../../core/dev-tool/front_end/devtools_app.html"),
+    path.join(__dirname, "../../core/dev-tool/devtools_app.html"),
     {
       query: {
-        ws: "localhost:9222/devtools/page/124655E7CF111310BAA700479191BCBC",
+        ws: "localhost:9222/devtools/page/B49C1D081F81977D13891661ED4284D9",
       },
     }
   );

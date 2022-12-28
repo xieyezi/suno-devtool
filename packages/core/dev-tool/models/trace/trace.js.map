@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../front_end/models/trace/trace.ts"],
+  "sourcesContent": ["// Copyright 2022 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\nimport * as Handlers from './handlers/handlers.js';\nimport * as Helpers from './helpers/helpers.js';\nimport * as TraceModel from './ModelImpl.js';\nimport * as SDKServices from './sdk_services/sdk_services.js';\nimport * as TraceProcessor from './TraceProcessor.js';\nimport * as Types from './types/types.js';\n\nexport {\n  Handlers,\n  Helpers,\n  SDKServices,\n  TraceModel,\n  TraceProcessor,\n  Types,\n};\n"],
+  "mappings": "AAIA;AACA;AACA;AACA;AACA;AACA;AAEA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

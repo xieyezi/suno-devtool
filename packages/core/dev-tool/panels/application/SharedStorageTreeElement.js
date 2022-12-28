@@ -1,0 +1,22 @@
+import { ApplicationPanelTreeElement } from "./ApplicationPanelTreeElement.js";
+import { SharedStorageItemsView } from "./SharedStorageItemsView.js";
+export class SharedStorageTreeElement extends ApplicationPanelTreeElement {
+  view;
+  constructor(resourcesPanel, sharedStorage) {
+    super(resourcesPanel, sharedStorage.securityOrigin, false);
+  }
+  static async createElement(resourcesPanel, sharedStorage) {
+    const treeElement = new SharedStorageTreeElement(resourcesPanel, sharedStorage);
+    treeElement.view = await SharedStorageItemsView.createView(sharedStorage);
+    return treeElement;
+  }
+  get itemURL() {
+    return "shared-storage://";
+  }
+  onselect(selectedByUser) {
+    super.onselect(selectedByUser);
+    this.resourcesPanel.showView(this.view);
+    return false;
+  }
+}
+//# sourceMappingURL=SharedStorageTreeElement.js.map
